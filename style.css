@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+.first.image {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+}
+h1 {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 10px; /* Adds some space between the image and text */
+    color: rgb(255, 27, 61);
+}
+
+.h2{
+    margin: none;
+    font-family: "Parisienne", serif;
+  font-weight: 800;
+  font-size: 30px;
+  color: rgb(255, 27, 61);
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.yes, .no {
+    padding: 15px 20px; /* Adjust size as needed */
+    font-size: 16px; /* Make text bigger */
+    border: none;
+    border-radius: 10%; /* Circular edges */
+    cursor: pointer; /* Make it clickable */
+    transition: 0.3s; /* Smooth hover effect */
+}
+.yes{
+    background-color: rgb(66, 200, 32);
+    color: white;
+}
+
+.no {
+    background-color: rgb(255, 50, 50);
+    color: white;
+    margin-left: 10px; /* Space between buttons */
+}
+
+.yes:hover, .no:hover {
+    transform: scale(1.1); /* Slightly enlarges on hover */
+}
